@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		882310A11E5B057E00A0228D /* JastorRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823109D1E5B057E00A0228D /* JastorRuntimeHelper.m */; };
+		882310A21E5B057E00A0228D /* Jastor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8823109F1E5B057E00A0228D /* Jastor.m */; };
+		882310AF1E5B40C300A0228D /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 882310AD1E5B40C300A0228D /* CustomTableViewCell.m */; };
+		882310B01E5B40C300A0228D /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882310AE1E5B40C300A0228D /* CustomTableViewCell.xib */; };
+		882310BB1E5C34CC00A0228D /* HttpHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 882310BA1E5C34CC00A0228D /* HttpHandler.m */; };
+		8827F8FC1E5EE6C50036CF28 /* EmployeeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8827F8FA1E5EE6C50036CF28 /* EmployeeController.m */; };
+		8827F8FD1E5EE6C50036CF28 /* EmployeeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8827F8FB1E5EE6C50036CF28 /* EmployeeController.xib */; };
+		8827F9001E5EE9620036CF28 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8827F8FF1E5EE9620036CF28 /* Common.m */; };
 		882D0FF21E56F984009F421E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D0FF11E56F984009F421E /* main.m */; };
 		882D0FF51E56F984009F421E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D0FF41E56F984009F421E /* AppDelegate.m */; };
-		882D0FF81E56F984009F421E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D0FF71E56F984009F421E /* ViewController.m */; };
-		882D0FFB1E56F984009F421E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D0FF91E56F984009F421E /* Main.storyboard */; };
 		882D0FFD1E56F984009F421E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 882D0FFC1E56F984009F421E /* Assets.xcassets */; };
-		882D10001E56F984009F421E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 882D0FFE1E56F984009F421E /* LaunchScreen.storyboard */; };
 		882D100B1E56F984009F421E /* iOS_Training_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D100A1E56F984009F421E /* iOS_Training_AppTests.m */; };
 		882D10161E56F984009F421E /* iOS_Training_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D10151E56F984009F421E /* iOS_Training_AppUITests.m */; };
+		882D10261E5715E4009F421E /* EmployeeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D10241E5715E4009F421E /* EmployeeListViewController.m */; };
+		882D10271E5715E4009F421E /* EmployeeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D10251E5715E4009F421E /* EmployeeListViewController.xib */; };
+		882D102A1E571997009F421E /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D10291E571997009F421E /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +43,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8823109D1E5B057E00A0228D /* JastorRuntimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JastorRuntimeHelper.m; path = ../../jastor/Jastor/Jastor/JastorRuntime/JastorRuntimeHelper.m; sourceTree = "<group>"; };
+		8823109E1E5B057E00A0228D /* JastorRuntimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JastorRuntimeHelper.h; path = ../../jastor/Jastor/Jastor/JastorRuntime/JastorRuntimeHelper.h; sourceTree = "<group>"; };
+		8823109F1E5B057E00A0228D /* Jastor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Jastor.m; path = ../../jastor/Jastor/Jastor/Jastor/Jastor.m; sourceTree = "<group>"; };
+		882310A01E5B057E00A0228D /* Jastor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Jastor.h; path = ../../jastor/Jastor/Jastor/Jastor/Jastor.h; sourceTree = "<group>"; };
+		882310AC1E5B40C300A0228D /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = "Models/Table Cell/CustomTableViewCell.h"; sourceTree = "<group>"; };
+		882310AD1E5B40C300A0228D /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = "Models/Table Cell/CustomTableViewCell.m"; sourceTree = "<group>"; };
+		882310AE1E5B40C300A0228D /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = Views/CustomTableViewCell.xib; sourceTree = "<group>"; };
+		882310B91E5C34CC00A0228D /* HttpHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpHandler.h; path = Http/HttpHandler.h; sourceTree = "<group>"; };
+		882310BA1E5C34CC00A0228D /* HttpHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HttpHandler.m; path = Http/HttpHandler.m; sourceTree = "<group>"; };
+		8827F8F91E5EE6C50036CF28 /* EmployeeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeController.h; path = Controllers/EmployeeController/EmployeeController.h; sourceTree = "<group>"; };
+		8827F8FA1E5EE6C50036CF28 /* EmployeeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeController.m; path = Controllers/EmployeeController/EmployeeController.m; sourceTree = "<group>"; };
+		8827F8FB1E5EE6C50036CF28 /* EmployeeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmployeeController.xib; path = Views/EmployeeController.xib; sourceTree = "<group>"; };
+		8827F8FE1E5EE9620036CF28 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Utils/Common.h; sourceTree = "<group>"; };
+		8827F8FF1E5EE9620036CF28 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Common.m; path = Utils/Common.m; sourceTree = "<group>"; };
 		882D0FED1E56F984009F421E /* iOS Training App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Training App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		882D0FF11E56F984009F421E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		882D0FF31E56F984009F421E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		882D0FF41E56F984009F421E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		882D0FF61E56F984009F421E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		882D0FF71E56F984009F421E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		882D0FFA1E56F984009F421E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		882D0FF31E56F984009F421E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		882D0FF41E56F984009F421E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
 		882D0FFC1E56F984009F421E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		882D0FFF1E56F984009F421E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		882D10011E56F984009F421E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		882D10061E56F984009F421E /* iOS Training AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Training AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		882D100A1E56F984009F421E /* iOS_Training_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Training_AppTests.m; sourceTree = "<group>"; };
+		882D100A1E56F984009F421E /* iOS_Training_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOS_Training_AppTests.m; path = "../iOS Training AppTests/iOS_Training_AppTests.m"; sourceTree = "<group>"; };
 		882D100C1E56F984009F421E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		882D10111E56F984009F421E /* iOS Training AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Training AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		882D10151E56F984009F421E /* iOS_Training_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Training_AppUITests.m; sourceTree = "<group>"; };
+		882D10151E56F984009F421E /* iOS_Training_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iOS_Training_AppUITests.m; path = "../iOS Training AppUITests/iOS_Training_AppUITests.m"; sourceTree = "<group>"; };
 		882D10171E56F984009F421E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		882D10231E5715E4009F421E /* EmployeeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmployeeListViewController.h; path = Controllers/EmployeeListViewController/EmployeeListViewController.h; sourceTree = "<group>"; };
+		882D10241E5715E4009F421E /* EmployeeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmployeeListViewController.m; path = Controllers/EmployeeListViewController/EmployeeListViewController.m; sourceTree = "<group>"; };
+		882D10251E5715E4009F421E /* EmployeeListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EmployeeListViewController.xib; path = Views/EmployeeListViewController.xib; sourceTree = "<group>"; };
+		882D10281E571997009F421E /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = Models/Employee/Employee.h; sourceTree = "<group>"; };
+		882D10291E571997009F421E /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = Models/Employee/Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8827F8F21E5EE6120036CF28 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8827F8FE1E5EE9620036CF28 /* Common.h */,
+				8827F8FF1E5EE9620036CF28 /* Common.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8827F8F31E5EE64E0036CF28 /* EmployeeController */ = {
+			isa = PBXGroup;
+			children = (
+				8827F8F91E5EE6C50036CF28 /* EmployeeController.h */,
+				8827F8FA1E5EE6C50036CF28 /* EmployeeController.m */,
+			);
+			name = EmployeeController;
+			sourceTree = "<group>";
+		};
 		882D0FE41E56F984009F421E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,7 @@
 				882D10091E56F984009F421E /* iOS Training AppTests */,
 				882D10141E56F984009F421E /* iOS Training AppUITests */,
 				882D0FEE1E56F984009F421E /* Products */,
+				882D10381E5761A9009F421E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +143,14 @@
 		882D0FEF1E56F984009F421E /* iOS Training App */ = {
 			isa = PBXGroup;
 			children = (
-				882D0FF31E56F984009F421E /* AppDelegate.h */,
-				882D0FF41E56F984009F421E /* AppDelegate.m */,
-				882D0FF61E56F984009F421E /* ViewController.h */,
-				882D0FF71E56F984009F421E /* ViewController.m */,
-				882D0FF91E56F984009F421E /* Main.storyboard */,
+				88B0F0D21E5F260E0045156F /* App Delegate */,
+				8827F8F21E5EE6120036CF28 /* Utils */,
+				886446981E5D84D8001D32E1 /* Http */,
+				883774B61E5CABD2009C7DD6 /* Views */,
+				883774B41E5CAB99009C7DD6 /* Controllers */,
+				883774B31E5CAA65009C7DD6 /* Models */,
+				886446971E5D84A9001D32E1 /* Jastor */,
 				882D0FFC1E56F984009F421E /* Assets.xcassets */,
-				882D0FFE1E56F984009F421E /* LaunchScreen.storyboard */,
 				882D10011E56F984009F421E /* Info.plist */,
 				882D0FF01E56F984009F421E /* Supporting Files */,
 			);
@@ -138,6 +181,113 @@
 				882D10171E56F984009F421E /* Info.plist */,
 			);
 			path = "iOS Training AppUITests";
+			sourceTree = "<group>";
+		};
+		882D10381E5761A9009F421E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883774B31E5CAA65009C7DD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8864469A1E5D85C0001D32E1 /* Employee */,
+				886446991E5D85AF001D32E1 /* Table Cell */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		883774B41E5CAB99009C7DD6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8827F8F31E5EE64E0036CF28 /* EmployeeController */,
+				8864469C1E5D85D6001D32E1 /* EmployeListViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		883774B61E5CABD2009C7DD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				882310AE1E5B40C300A0228D /* CustomTableViewCell.xib */,
+				882D10251E5715E4009F421E /* EmployeeListViewController.xib */,
+				8827F8FB1E5EE6C50036CF28 /* EmployeeController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		886446971E5D84A9001D32E1 /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				8864469F1E5D8705001D32E1 /* JastorRuntime */,
+				8864469E1E5D86FC001D32E1 /* Jastor */,
+			);
+			name = Jastor;
+			sourceTree = "<group>";
+		};
+		886446981E5D84D8001D32E1 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				882310B91E5C34CC00A0228D /* HttpHandler.h */,
+				882310BA1E5C34CC00A0228D /* HttpHandler.m */,
+			);
+			name = Http;
+			sourceTree = "<group>";
+		};
+		886446991E5D85AF001D32E1 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				882310AC1E5B40C300A0228D /* CustomTableViewCell.h */,
+				882310AD1E5B40C300A0228D /* CustomTableViewCell.m */,
+			);
+			name = "Table Cell";
+			sourceTree = "<group>";
+		};
+		8864469A1E5D85C0001D32E1 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				882D10281E571997009F421E /* Employee.h */,
+				882D10291E571997009F421E /* Employee.m */,
+			);
+			name = Employee;
+			sourceTree = "<group>";
+		};
+		8864469C1E5D85D6001D32E1 /* EmployeListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				882D10231E5715E4009F421E /* EmployeeListViewController.h */,
+				882D10241E5715E4009F421E /* EmployeeListViewController.m */,
+			);
+			name = EmployeListViewController;
+			sourceTree = "<group>";
+		};
+		8864469E1E5D86FC001D32E1 /* Jastor */ = {
+			isa = PBXGroup;
+			children = (
+				882310A01E5B057E00A0228D /* Jastor.h */,
+				8823109F1E5B057E00A0228D /* Jastor.m */,
+			);
+			name = Jastor;
+			sourceTree = "<group>";
+		};
+		8864469F1E5D8705001D32E1 /* JastorRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				8823109E1E5B057E00A0228D /* JastorRuntimeHelper.h */,
+				8823109D1E5B057E00A0228D /* JastorRuntimeHelper.m */,
+			);
+			name = JastorRuntime;
+			sourceTree = "<group>";
+		};
+		88B0F0D21E5F260E0045156F /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				882D0FF31E56F984009F421E /* AppDelegate.h */,
+				882D0FF41E56F984009F421E /* AppDelegate.m */,
+			);
+			name = "App Delegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +399,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				882D10001E56F984009F421E /* LaunchScreen.storyboard in Resources */,
 				882D0FFD1E56F984009F421E /* Assets.xcassets in Resources */,
-				882D0FFB1E56F984009F421E /* Main.storyboard in Resources */,
+				882D10271E5715E4009F421E /* EmployeeListViewController.xib in Resources */,
+				882310B01E5B40C300A0228D /* CustomTableViewCell.xib in Resources */,
+				8827F8FD1E5EE6C50036CF28 /* EmployeeController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +427,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				882D0FF81E56F984009F421E /* ViewController.m in Sources */,
+				8827F9001E5EE9620036CF28 /* Common.m in Sources */,
+				8827F8FC1E5EE6C50036CF28 /* EmployeeController.m in Sources */,
+				882D102A1E571997009F421E /* Employee.m in Sources */,
 				882D0FF51E56F984009F421E /* AppDelegate.m in Sources */,
+				882310A21E5B057E00A0228D /* Jastor.m in Sources */,
+				882310BB1E5C34CC00A0228D /* HttpHandler.m in Sources */,
+				882310A11E5B057E00A0228D /* JastorRuntimeHelper.m in Sources */,
+				882D10261E5715E4009F421E /* EmployeeListViewController.m in Sources */,
+				882310AF1E5B40C300A0228D /* CustomTableViewCell.m in Sources */,
 				882D0FF21E56F984009F421E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,25 +470,6 @@
 			targetProxy = 882D10121E56F984009F421E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		882D0FF91E56F984009F421E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				882D0FFA1E56F984009F421E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		882D0FFE1E56F984009F421E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				882D0FFF1E56F984009F421E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		882D10181E56F984009F421E /* Debug */ = {
@@ -429,9 +568,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C68AKAULXV;
 				INFOPLIST_FILE = "iOS Training App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "infocare.iOS-Training-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -441,9 +582,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C68AKAULXV;
 				INFOPLIST_FILE = "iOS Training App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "infocare.iOS-Training-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -516,6 +659,7 @@
 				882D101C1E56F984009F421E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		882D101D1E56F984009F421E /* Build configuration list for PBXNativeTarget "iOS Training AppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +668,7 @@
 				882D101F1E56F984009F421E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		882D10201E56F984009F421E /* Build configuration list for PBXNativeTarget "iOS Training AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +677,7 @@
 				882D10221E56F984009F421E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
